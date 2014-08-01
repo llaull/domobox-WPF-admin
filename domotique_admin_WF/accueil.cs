@@ -12,10 +12,13 @@ namespace domotique_admin_WF
 {
     public partial class accueil : Form
     {
+        
         public accueil()
         {
             InitializeComponent();
         }
+
+
 
         private void modesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -32,6 +35,7 @@ namespace domotique_admin_WF
 
         private void definirLesModulesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
             module_def fenetre = new module_def();
             fenetre.MdiParent = this;
             fenetre.Show();
@@ -40,9 +44,11 @@ namespace domotique_admin_WF
 
         private void rapportJournaliéToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            rapport_journali fenetre = new rapport_journali();
-            fenetre.MdiParent = this;
-            fenetre.Show();
+          /*  rapport_journali fenetre = new rapport_journali();
+           
+            fenetre.Show();*/
+            //fenetre.MdiParent = this;
+            rapport_journali.ShowUnique(this); 
         }
     }
 }
