@@ -37,5 +37,12 @@ namespace domotique_admin_WF
             fenetre.Show();
 
         }
+
+        private void rapportJournaliéToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rapport_journali fenetre = new rapport_journali();
+            fenetre.MdiParent = this;
+            fenetre.Show();
+        }
     }
 }

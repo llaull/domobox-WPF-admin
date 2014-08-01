@@ -30,7 +30,6 @@
         {
             this.module__list_def = new System.Windows.Forms.DataGridView();
             this.Supprimer = new System.Windows.Forms.Button();
-            this.Ajouter = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.module__list_def)).BeginInit();
             this.SuspendLayout();
             // 
@@ -39,12 +38,12 @@
             this.module__list_def.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.module__list_def.Location = new System.Drawing.Point(12, 12);
             this.module__list_def.Name = "module__list_def";
-            this.module__list_def.Size = new System.Drawing.Size(653, 184);
+            this.module__list_def.Size = new System.Drawing.Size(653, 212);
             this.module__list_def.TabIndex = 0;
             // 
             // Supprimer
             // 
-            this.Supprimer.Location = new System.Drawing.Point(174, 221);
+            this.Supprimer.Location = new System.Drawing.Point(590, 230);
             this.Supprimer.Name = "Supprimer";
             this.Supprimer.Size = new System.Drawing.Size(75, 23);
             this.Supprimer.TabIndex = 1;
@@ -52,21 +51,11 @@
             this.Supprimer.UseVisualStyleBackColor = true;
             this.Supprimer.Click += new System.EventHandler(this.Supprimer_Click);
             // 
-            // Ajouter
-            // 
-            this.Ajouter.Location = new System.Drawing.Point(93, 221);
-            this.Ajouter.Name = "Ajouter";
-            this.Ajouter.Size = new System.Drawing.Size(75, 23);
-            this.Ajouter.TabIndex = 2;
-            this.Ajouter.Text = "Ajouter";
-            this.Ajouter.UseVisualStyleBackColor = true;
-            // 
             // module_def
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(677, 434);
-            this.Controls.Add(this.Ajouter);
+            this.ClientSize = new System.Drawing.Size(677, 265);
             this.Controls.Add(this.Supprimer);
             this.Controls.Add(this.module__list_def);
             this.Name = "module_def";
@@ -81,6 +70,5 @@
 
         private System.Windows.Forms.DataGridView module__list_def;
         private System.Windows.Forms.Button Supprimer;
-        private System.Windows.Forms.Button Ajouter;
     }
 }

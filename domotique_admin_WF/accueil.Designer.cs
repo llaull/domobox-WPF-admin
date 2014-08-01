@@ -31,11 +31,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.modesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gererLesModulesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.definirLesModulesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lesEmplacementsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sensorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gererLesTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gererLesUnitésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lesEmplacementsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.definirLesModulesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rapportJournaliéToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,10 +45,11 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.modesToolStripMenuItem,
             this.gererLesModulesToolStripMenuItem,
-            this.sensorToolStripMenuItem});
+            this.sensorToolStripMenuItem,
+            this.rapportJournaliéToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1109, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(979, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -66,6 +68,19 @@
             this.gererLesModulesToolStripMenuItem.Name = "gererLesModulesToolStripMenuItem";
             this.gererLesModulesToolStripMenuItem.Size = new System.Drawing.Size(117, 20);
             this.gererLesModulesToolStripMenuItem.Text = "Gerrer les modules";
+            // 
+            // definirLesModulesToolStripMenuItem
+            // 
+            this.definirLesModulesToolStripMenuItem.Name = "definirLesModulesToolStripMenuItem";
+            this.definirLesModulesToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.definirLesModulesToolStripMenuItem.Text = "Definir les modules";
+            this.definirLesModulesToolStripMenuItem.Click += new System.EventHandler(this.definirLesModulesToolStripMenuItem_Click);
+            // 
+            // lesEmplacementsToolStripMenuItem
+            // 
+            this.lesEmplacementsToolStripMenuItem.Name = "lesEmplacementsToolStripMenuItem";
+            this.lesEmplacementsToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.lesEmplacementsToolStripMenuItem.Text = "Les emplacements";
             // 
             // sensorToolStripMenuItem
             // 
@@ -88,24 +103,18 @@
             this.gererLesUnitésToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.gererLesUnitésToolStripMenuItem.Text = "gerer les unités";
             // 
-            // lesEmplacementsToolStripMenuItem
+            // rapportJournaliéToolStripMenuItem
             // 
-            this.lesEmplacementsToolStripMenuItem.Name = "lesEmplacementsToolStripMenuItem";
-            this.lesEmplacementsToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.lesEmplacementsToolStripMenuItem.Text = "Les emplacements";
-            // 
-            // definirLesModulesToolStripMenuItem
-            // 
-            this.definirLesModulesToolStripMenuItem.Name = "definirLesModulesToolStripMenuItem";
-            this.definirLesModulesToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.definirLesModulesToolStripMenuItem.Text = "Definir les modules";
-            this.definirLesModulesToolStripMenuItem.Click += new System.EventHandler(this.definirLesModulesToolStripMenuItem_Click);
+            this.rapportJournaliéToolStripMenuItem.Name = "rapportJournaliéToolStripMenuItem";
+            this.rapportJournaliéToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
+            this.rapportJournaliéToolStripMenuItem.Text = "Rapport Journalié";
+            this.rapportJournaliéToolStripMenuItem.Click += new System.EventHandler(this.rapportJournaliéToolStripMenuItem_Click);
             // 
             // accueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 597);
+            this.ClientSize = new System.Drawing.Size(979, 597);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
@@ -128,6 +137,7 @@
         private System.Windows.Forms.ToolStripMenuItem gererLesUnitésToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem definirLesModulesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lesEmplacementsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rapportJournaliéToolStripMenuItem;
     }
 }
 

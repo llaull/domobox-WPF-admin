@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotique_admin_WF", "domotique_admin_WF\domotique_admin_WF.csproj", "{89321179-95B0-4015-9E11-A3D23C606BE7}"
 EndProject
 Global
