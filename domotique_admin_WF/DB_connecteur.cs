@@ -10,10 +10,10 @@ namespace CnxMYSQL
         public MySqlConnection connexion;
         public MySqlCommand cmd;
                 
-        private string serveur = "10.119.33.10";
+        private string serveur = "diskstation";
         private string basedonnees = "app_domobox";
-        private string utilisateur = "jb";
-        private string mdp = "jb";
+        private string utilisateur = "domobox";
+        private string mdp = "8PvP5TndAjXFeJQP";
 
         public DBConnect()
         {

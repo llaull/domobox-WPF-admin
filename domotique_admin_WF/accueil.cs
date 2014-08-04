@@ -17,7 +17,36 @@ namespace domotique_admin_WF
         {
             InitializeComponent();
         }
+        /**/
+       
+        /*private static h List<Form> _instance = null;
 
+        public void ShowUnique(String NomFenetre)
+        {
+            
+
+            if (_instance == null)
+            {
+                _instance = new NomFenetre();
+                _instance.MdiParent = parent;
+            }
+
+            else
+                _instance.Focus();
+
+            try
+            {
+                _instance.Show();
+            }
+            catch (ObjectDisposedException)
+            {
+                _instance = new NomFenetre();
+                _instance.MdiParent = parent;
+                _instance.Show();
+
+            }
+        }*/
+        /**/
 
 
         private void modesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,6 +78,7 @@ namespace domotique_admin_WF
             fenetre.Show();*/
             //fenetre.MdiParent = this;
             rapport_journali.ShowUnique(this); 
+            //ShowUnique(this,"rapport_journali"); 
         }
     }
 }
