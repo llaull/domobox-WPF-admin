@@ -23,3 +23,17 @@ C:\Users\laurent\OneDrive\afpaDL2014\visual studio 2012\Projects\domotique_admin
 C:\Users\laurent\OneDrive\afpaDL2014\visual studio 2012\Projects\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.rapport_journali.resources
 C:\Users\laurent\OneDrive\afpaDL2014\visual studio 2012\Projects\domotique_admin_WF\domotique_admin_WF\obj\Debug\RdlCompile.cache
 C:\Users\laurent\OneDrive\afpaDL2014\visual studio 2012\Projects\domotique_admin_WF\domotique_admin_WF\obj\Debug\RdlCompile.compiled
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\bin\Debug\domotique_admin_WF.exe.config
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.exe
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.pdb
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\bin\Debug\domotique_admin_WF.exe
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\bin\Debug\domotique_admin_WF.pdb
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.accueil.resources
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.rapport_journali.resources
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.logs.resources
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.module_def.resources
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.Properties.Resources.resources
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\domotique_admin_WF.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\RdlCompile.cache
+C:\Users\admin\Desktop\domotique_admin_WF\domotique_admin_WF\obj\Debug\RdlCompile.compiled
